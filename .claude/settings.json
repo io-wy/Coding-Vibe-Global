@@ -1,0 +1,9 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "autoUpdatesChannel": "stable",
+  "env": {},
+  "skipDangerousModePermissionPrompt": false
+}

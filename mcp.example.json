@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/claude-code-addon-context7"]
+    },
+    "deepwiki": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/claude-code-addon-deepwiki"]
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/claude-code-addon-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": ""
+      }
+    },
+    "exa": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/claude-code-addon-exa"],
+      "env": {
+        "EXA_API_KEY": ""
+      }
+    },
+    "tavily": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/claude-code-addon-tavily"],
+      "env": {
+        "TAVILY_API_KEY": ""
+      }
+    }
+  }
+}

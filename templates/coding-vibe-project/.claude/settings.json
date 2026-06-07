@@ -1,0 +1,12 @@
+{
+  "attribution": {
+    "commit": "conventional",
+    "pr": "squash"
+  },
+  "autoUpdatesChannel": "stable",
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "ENABLE_TOOL_SEARCH": "true"
+  },
+  "skipDangerousModePermissionPrompt": true
+}
