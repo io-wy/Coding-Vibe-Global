@@ -35,7 +35,6 @@ cp .claude/settings.json /path/to/your-project/.claude/
 coding-vibe-global/          ← 中央知识库（本仓库）
 ├── CLAUDE.md                Claude Code 读取后获知方法论
 ├── .claude/rules/           共享规则（编码、Git、审查、方法论）
-├── setup.sh                 初始化 / 同步 CLI 工具
 └── templates/               项目模板
 
 coding-vibe-<lang>/          ← 项目级仓库（如 coding-vibe-go）
@@ -60,7 +59,6 @@ coding-vibe-<lang>/          ← 项目级仓库（如 coding-vibe-go）
 - [Git 工作流](.claude/rules/git-workflow.md)
 - [审查清单](.claude/rules/review-checklist.md)
 - [项目模板](templates/)
-- [setup.sh](setup.sh)
 
 ## 原理
 
